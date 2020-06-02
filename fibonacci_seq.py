@@ -6,7 +6,5 @@ def fib_seq():
         a,b=b,a+b
         yield a
     
-if __name__ == '__main__':
-	fib_seq()
-	for num in fib_seq():
+for num in fib_seq():
     print(num)
