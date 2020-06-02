@@ -3,7 +3,7 @@ import math
 
 while True:  
     try:
-        n = int(input("Please enter a number to which we will generate pi to that digit. Parameters are 0 and 50"))
+        n = int(input("Please enter a number to which we will generate pi to that digit. Parameters are 0 and 50: "))
         if n<0 or n>50:
             continue #continue asking the user for a number until a number is provided that's within the parameters
         else:
